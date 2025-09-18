@@ -1,6 +1,7 @@
 export const ctaDetails = {
-    heading: 'Join Over 1 Million Users To Transform Your Finances',
-    subheading: 'Your journey to financial freedom starts here. Download Finwise today and take the first step towards a brighter financial future!',
-    appStoreUrl: '#',
-    googlePlayUrl: '#'
+  heading: "FMS 7가지 자격증을 멤버십으로 한 번에!",
+  subheading:
+    "연회비 구독으로 7가지 자격증 과정 및 보강 강좌 수강은 물론 다양한 서비스와 오프라인 이벤트 참가까지",
+  appStoreUrl: "#",
+  googlePlayUrl: "#",
 }
