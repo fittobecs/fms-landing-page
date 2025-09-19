@@ -14,7 +14,7 @@ const FMSInfo2: React.FC = () => {
         <hr className="border-2 border-gray-800 w-3/4 mx-auto" />
       </div>
       {/* 제목 */}
-      <h1 className="text-[42px] font-bold m-12 text-center">
+      <h1 className="text-[42px] font-bold m-12 text-center leading-10">
         FMS사 7가지 자격 과정
       </h1>
 
