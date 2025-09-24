@@ -4,7 +4,7 @@ export const siteDetails = {
   metadata: {
     title: "FMS",
     description:
-      "Finwise empowers businesses with cutting-edge technology solutions to drive success and efficiency.",
+      "손흥민, 이강인도 하는 움직임 검사부터 평가, 교정까지_움직임 전문가로 가는 길 FMS",
   },
   language: "ko-kr",
   locale: "ko-KR",
