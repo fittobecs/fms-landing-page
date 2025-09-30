@@ -50,9 +50,7 @@ export default function RootLayout({
           <GoogleAnalytics gaId={siteDetails.googleAnalyticsId} />
         )}
         <Header />
-        <main style={{ backgroundColor: "rgb(239, 239, 239)" }}>
-          {children}
-        </main>
+        <main>{children}</main>
         <Footer />
       </body>
     </html>

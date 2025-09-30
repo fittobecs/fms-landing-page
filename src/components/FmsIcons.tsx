@@ -3,7 +3,7 @@ import Image from "next/image"
 const FmsIcons: React.FC = () => {
   return (
     <section className="w-full py-16 flex justify-center items-center">
-      <div className="relative w-80% max-w-[1200px]">
+      <div className="relative w-[90%] md:w-[80%] max-w-[1200px]">
         <Image
           src="/images/FMS-Icons-1.png"
           width={1200}

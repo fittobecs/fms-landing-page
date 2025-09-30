@@ -44,7 +44,7 @@ const Header: React.FC = () => {
             ))}
             <li>
               <a
-                href="https://www.fittobe.ac/main/page.jsp?code=test_12121&ln=FMS_main"
+                href="https://www.fittobe.ac/course/course_view.jsp?id=174227&cid=116081#course-view-174227"
                 target="_blank"
                 className="text-black bg-white border-4 border-red-600 hover:bg-gray-300 px-8 py-3 rounded-full transition-colors"
               >
@@ -101,7 +101,7 @@ const Header: React.FC = () => {
             ))}
             <li>
               <a
-                href="https://www.fittobe.ac/main/page.jsp?code=test_12121&ln=FMS_main"
+                href="https://www.fittobe.ac/course/course_view.jsp?id=174227&cid=116081#course-view-174227"
                 target="_blank"
                 className="text-black bg-white border-4 border-red-600 hover:bg-gray-300 px-8 py-3 rounded-full transition-colors"
                 onClick={toggleMenu}

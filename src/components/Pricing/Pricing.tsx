@@ -4,7 +4,7 @@ import { tiers } from "@/data/pricing"
 
 const Pricing: React.FC = () => {
   return (
-    <div className="w-full py-16 flex justify-center items-center">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-0">
       {tiers.map((tier, index) => (
         <div key={tier.name}>
           <PricingColumn key={tier.name} tier={tier} highlight={index === 0} />

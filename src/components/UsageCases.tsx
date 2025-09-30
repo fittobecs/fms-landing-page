@@ -28,18 +28,18 @@ const UsageCases: React.FC<ImageCarouselProps> = ({
 
   const items = [
     {
-      id: "squat",
-      src: "/images/qatar-nike.png",
-      alt: "스쿼트 자세",
-      caption: "스쿼트 - 하체 근력 강화",
-      type: "image",
-    },
-    {
       id: "squat-gif",
       src: "/images/zlatan.gif",
       alt: "스쿼트 동작",
       caption: "올바른 스쿼트 자세 가이드",
       type: "gif",
+    },
+    {
+      id: "squat",
+      src: "/images/qatar-nike.png",
+      alt: "스쿼트 자세",
+      caption: "스쿼트 - 하체 근력 강화",
+      type: "image",
     },
     {
       id: "plank",

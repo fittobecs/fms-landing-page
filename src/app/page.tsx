@@ -25,7 +25,7 @@ const HomePage: React.FC = () => {
         >
           <Pricing />
           <div className="text-center">
-            <p className="text-blue-500">
+            <p className="text-blue-500 mt-10">
               <a
                 href="https://www.fittobe.ac/course/course_view.jsp?id=174227&cid=116081#course-view-174227"
                 target="_blank"
@@ -39,7 +39,7 @@ const HomePage: React.FC = () => {
         <div className="mt-16 px-4">
           <hr className="border-2 border-gray-800 w-3/4 mx-auto" />
         </div>
-        <Section id="usage-case" title="실제 사용 사례" description="">
+        <Section id="usage-case" title="해외 구단 사용" description="">
           <UsageCases />
         </Section>
         <CTA />

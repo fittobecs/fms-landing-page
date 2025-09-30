@@ -5,10 +5,7 @@ import React from "react"
 
 const FMSInfo2: React.FC = () => {
   return (
-    <section
-      className="w-full py-12"
-      style={{ backgroundColor: "rgb(239, 239, 239)" }}
-    >
+    <section className="w-full py-12">
       {/* 상단 수평선 */}
       <div className="mt-8 px-4">
         <hr className="border-2 border-gray-800 w-3/4 mx-auto" />
@@ -43,7 +40,7 @@ const FMSInfo2: React.FC = () => {
               </ul>
               <p className="py-5 text-blue-500">
                 <a
-                  href="https://www.fittobe.ac/course/course_list.jsp?cid=117698"
+                  href="https://www.fittobe.ac/course/course_view.jsp?id=161325&cid=117698#course-view-161325"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -67,7 +64,7 @@ const FMSInfo2: React.FC = () => {
               </ul>
               <p className="py-5 text-blue-500">
                 <a
-                  href="https://www.fittobe.ac/course/course_list.jsp?cid=117698"
+                  href="https://www.fittobe.ac/course/course_view.jsp?id=161405&cid=117698#course-view-161405"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -109,7 +106,7 @@ const FMSInfo2: React.FC = () => {
               </ul>
               <p className="py-5 text-blue-500">
                 <a
-                  href="https://www.fittobe.ac/course/course_list.jsp?cid=117698"
+                  href="https://www.fittobe.ac/course/course_view.jsp?id=161408&cid=117698#course-view-161408"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -131,7 +128,7 @@ const FMSInfo2: React.FC = () => {
               </ul>
               <p className="py-5 text-blue-500">
                 <a
-                  href="https://www.fittobe.ac/course/course_list.jsp?cid=117698"
+                  href="https://www.fittobe.ac/course/course_view.jsp?id=161409&cid=117698#course-view-161409"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -175,7 +172,7 @@ const FMSInfo2: React.FC = () => {
               </ul>
               <p className="py-5 text-blue-500">
                 <a
-                  href="https://www.fittobe.ac/course/course_list.jsp?cid=117698"
+                  href="https://www.fittobe.ac/course/course_view.jsp?id=163548&cid=117698#course-view-163548"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -199,7 +196,7 @@ const FMSInfo2: React.FC = () => {
               </ul>
               <p className="py-5 text-blue-500">
                 <a
-                  href="https://www.fittobe.ac/course/course_list.jsp?cid=117698"
+                  href="https://www.fittobe.ac/course/course_list.jsp?cid=116087&"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

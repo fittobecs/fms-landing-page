@@ -1,10 +1,6 @@
 const FMSInfo1: React.FC = () => {
   return (
-    <div
-      id="features"
-      className="w-full py-16"
-      style={{ backgroundColor: "rgb(239, 239, 239)" }}
-    >
+    <div id="features" className="w-full py-16">
       <div className="max-w-4xl mx-auto px-6">
         {/* Main Title */}
         <div className="text-center mb-12">
@@ -25,10 +21,12 @@ const FMSInfo1: React.FC = () => {
           {/* First Section */}
           <div className="max-w-3xl mx-auto">
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              FMS 아카데미에 오신 것을 환영합니다 &quot;FMS 아카데미를 발표하게
-              되어 매우 기쁘고 자랑스럽게 생각합니다. 1980년대말부터 저희는
-              운동선수, 환자는 물론 일반인들이 더 잘 움직이고더 자주 움직일 수
-              있도록 돕는 체계적인 접근법으로 FMS를 시작했습니다.
+              FMS 아카데미에 오신 것을 환영합니다.
+              <br />
+              &quot;FMS 아카데미를 발표하게 되어 매우 기쁘고 자랑스럽게
+              생각합니다. 1980년대말부터 저희는 운동선수, 환자는 물론 일반인들이
+              더 잘 움직이고더 자주 움직일 수 있도록 돕는 체계적인 접근법으로
+              FMS를 시작했습니다.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
               그동안 우리는 동료들의 피드백, 연구 결과, 그리고 우리의 실제
