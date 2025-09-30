@@ -5,7 +5,7 @@ const Hero: React.FC = () => {
   return (
     <section
       id="hero"
-      className="relative flex items-center justify-center pb-0 h-[900px] pt-[85px]"
+      className="relative flex items-center justify-center pb-0 md:h-[900px] h-[450px] md:pt-[85px] pt-[60px]"
     >
       <div className="relative w-full h-full">
         {/* 이미지를 감쌀 컨테이너 */}
