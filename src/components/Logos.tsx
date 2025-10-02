@@ -1,5 +1,6 @@
 "use client"
 import React, { useState } from "react"
+import LogoSlider from "./LogoSlider"
 
 interface Course {
   id: string
@@ -70,7 +71,7 @@ const Logos: React.FC = () => {
       className="w-full py-8"
       style={{ backgroundColor: "rgb(202, 202, 202)" }}
     >
-      <div className="max-w-4xl mx-auto px-4">
+      <div className=" mx-auto px-4">
         {/* Title */}
         <div className="text-center mb-8">
           <h2 className="text-2xl font-medium text-gray-700 tracking-wide">
@@ -80,48 +81,7 @@ const Logos: React.FC = () => {
 
         {/* Navigation Container */}
         <div className="relative flex items-center justify-center">
-          {/* Left Arrow */}
-          <button
-            onClick={handlePrevious}
-            disabled={currentIndex === 0}
-            className={`p-2 rounded-full transition-colors duration-200 ${
-              currentIndex === 0
-                ? "text-gray-300 cursor-not-allowed"
-                : "text-gray-500 hover:text-gray-700 hover:bg-white"
-            }`}
-          >
-            <ChevronLeft className="w-6 h-6" />
-          </button>
-
-          {/* Course Navigation */}
-          <div className="flex items-center space-x-8 mx-8">
-            {courses.map((course, index) => (
-              <button
-                key={course.id}
-                onClick={() => handleCourseClick(index)}
-                className={`text-lg font-medium transition-all duration-300 px-4 py-2 rounded-lg ${
-                  index === currentIndex
-                    ? "text-gray-900 bg-white shadow-sm"
-                    : "text-gray-500 hover:text-gray-700 hover:bg-white/50"
-                }`}
-              >
-                {course.title}
-              </button>
-            ))}
-          </div>
-
-          {/* Right Arrow */}
-          <button
-            onClick={handleNext}
-            disabled={currentIndex === courses.length - 1}
-            className={`p-2 rounded-full transition-colors duration-200 ${
-              currentIndex === courses.length - 1
-                ? "text-gray-300 cursor-not-allowed"
-                : "text-gray-500 hover:text-gray-700 hover:bg-white"
-            }`}
-          >
-            <ChevronRight className="w-6 h-6" />
-          </button>
+          <LogoSlider />
         </div>
       </div>
     </div>
