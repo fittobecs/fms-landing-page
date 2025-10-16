@@ -8,11 +8,11 @@ const FMSInfo1: React.FC = () => {
             FMS사의 모든 온라인 강좌를
           </h1>
           <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-8 leading-tight">
-            수강하는, <span className="tracking-wider">FMS ACADEMY</span>
+            수강하는, FMS ACADEMY
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            FMS사의 모든 온라인 강좌를 수강하는, FMS ACADEMY 1천만원 값어치의
-            국제 자격증 7가지, 매년 추가 되는 FMS사의 새로운 강좌들을 한 번에!
+            1천만원 값어치의 FMS사의 모든 강좌를 FMS ACADEMY로 한 번에! 국제
+            자격증 7가지부터 매년 추가되는 FMS사의 새로운 강좌까지
           </p>
         </div>
 
