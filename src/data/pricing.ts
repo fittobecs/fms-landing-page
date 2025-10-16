@@ -23,6 +23,10 @@ export const tiers: IPricing[] = [
     price: 33,
     url: "https://www.fittobe.ac/subscribe/index.jsp",
     unit: "년",
-    features: ["모든 혜택 과정 1년 연장", "1년 33만원으로 모든 혜택 유지"],
+    features: [
+      "모든 혜택 및 과정 1년 연장",
+      "매년 새 강좌 추가 업데이트",
+      "1년 33만원으로 모든 혜택 유지",
+    ],
   },
 ]

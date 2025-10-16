@@ -5,10 +5,10 @@ const FMSInfo1: React.FC = () => {
         {/* Main Title */}
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4 leading-tight">
-            FMS사의 모든 온라인 강좌를
+            FMS사의 모든 온라인 강좌를 수강하는,
           </h1>
           <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-8 leading-tight">
-            수강하는, FMS ACADEMY
+            FMS ACADEMY
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             1천만원 값어치의 FMS사의 모든 강좌를 FMS ACADEMY로 한 번에! 국제
@@ -22,6 +22,7 @@ const FMSInfo1: React.FC = () => {
           <div className="max-w-3xl mx-auto">
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
               FMS 아카데미에 오신 것을 환영합니다.
+              <br />
               <br />
               &quot;FMS 아카데미를 발표하게 되어 매우 기쁘고 자랑스럽게
               생각합니다. 1980년대말부터 저희는 운동선수, 환자는 물론 일반인들이
