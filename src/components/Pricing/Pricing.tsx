@@ -7,7 +7,7 @@ const Pricing: React.FC = () => {
     <div className="flex flex-col md:flex-row justify-center items-center gap-8">
       <PricingColumn tier={tiers[0]} />
       <div className="flex items-center justify-center">
-        <BsPlusCircleFill className="h-8 w-8 text-white bg-red-600 rounded-full" />
+        <BsPlusCircleFill className="h-8 w-8 md:h-12 md:w-12 text-white bg-red-600 rounded-full" />
       </div>
       <PricingColumn tier={tiers[1]} />
     </div>

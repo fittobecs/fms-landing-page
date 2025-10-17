@@ -21,12 +21,15 @@ const FMSInfo2: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2">
           <div className="space-y-8 order-1">
             <div className="relative w-full h-[300px]">
-              <Image
-                src="/images/FMS_Kyle_Screen_HR-0768.jpg"
-                alt="FMS L1/L2 이미지"
-                fill
-                className="object-cover rounded-lg"
-              />
+              <div className="w-full aspect-video mb-4">
+                <iframe
+                  className="w-full h-full"
+                  src="https://www.youtube.com/embed/gQQtOkLX-Ew"
+                  title="FMS L1/L2"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
             </div>
           </div>
           <div className="space-y-8 order-2">
@@ -75,12 +78,15 @@ const FMSInfo2: React.FC = () => {
           </div>
           <div className="space-y-8 order-1 md:order-2">
             <div className="relative w-full h-[300px]">
-              <Image
-                src="/images/SFMA_CA_Assessment_2900px-5216.jpg"
-                alt="SFMA L1/L2 이미지"
-                fill
-                className="object-cover rounded-lg"
-              />
+              <div className="w-full aspect-video mb-4">
+                <iframe
+                  className="w-full h-full"
+                  src="https://www.youtube.com/embed/fQFxgeLeFnQ"
+                  title="SFMA"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -89,12 +95,15 @@ const FMSInfo2: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2">
           <div className="space-y-8 order-1">
             <div className="relative w-full h-[300px]">
-              <Image
-                src="/images/FMS_Arizona_2900px-9020.jpg"
-                alt="FCS 이미지"
-                fill
-                className="object-cover rounded-lg"
-              />
+              <div className="w-full aspect-video mb-4">
+                <iframe
+                  className="w-full h-full"
+                  src="https://www.youtube.com/embed/72p8_gNlgL8"
+                  title="FCS"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
             </div>
           </div>
           <div className="space-y-8 order-2">
@@ -139,12 +148,15 @@ const FMSInfo2: React.FC = () => {
           </div>
           <div className="space-y-8 order-1 md:order-2">
             <div className="relative w-full h-[300px]">
-              <Image
-                src="/images/img_seminar_ybt.jpg"
-                alt="YBT 이미지"
-                fill
-                className="object-cover rounded-lg"
-              />
+              <div className="w-full aspect-video mb-4">
+                <iframe
+                  className="w-full h-full"
+                  src="https://www.youtube.com/embed/V0CCZGUSrwY"
+                  title="YBT"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -153,12 +165,15 @@ const FMSInfo2: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2">
           <div className="space-y-8 order-1">
             <div className="relative w-full h-[300px]">
-              <Image
-                src="/images/img_seminar_breathing_goal.jpg"
-                alt="BREATHING 이미지"
-                fill
-                className="object-cover rounded-lg"
-              />
+              <div className="w-full aspect-video mb-4">
+                <iframe
+                  className="w-full h-full"
+                  src="https://www.youtube.com/embed/hgVrgogOlEo"
+                  title="BREATHING"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
             </div>
           </div>
           <div className="space-y-8 order-2">

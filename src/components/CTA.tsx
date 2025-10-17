@@ -34,7 +34,7 @@ const CTA: React.FC = () => {
 
             <p className="mx-auto max-w-xl md:px-5">{ctaDetails.subheading}</p>
 
-            <div className="mt-4 flex flex-col sm:flex-row items-center sm:gap-4">
+            <div className="mt-4 flex flex-row items-center sm:gap-4">
               <button
                 type="button"
                 className="text-black bg-white hover:bg-gray-100 focus:outline-none focus:ring-4  

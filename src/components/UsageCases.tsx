@@ -99,7 +99,7 @@ const UsageCases: React.FC<ImageCarouselProps> = ({
   // 조기 반환을 hooks 호출 이후로 이동
   if (!items || items.length === 0) {
     return (
-      <div className="flex items-center justify-center h-96 bg-gray-100 rounded-lg">
+      <div className="flex items-center justify-center h-96  rounded-lg">
         <p className="text-gray-500">이미지가 없습니다</p>
       </div>
     )
@@ -110,10 +110,10 @@ const UsageCases: React.FC<ImageCarouselProps> = ({
   return (
     <section>
       <div
-        className={`relative w-full max-w-4xl mx-auto bg-white rounded-lg shadow-lg overflow-hidden ${className}`}
+        className={`relative w-full max-w-4xl mx-auto bg-white rounded-lg overflow-hidden ${className}`}
       >
         {/* 메인 이미지 컨테이너 */}
-        <div className="relative aspect-[4/3] bg-gray-100">
+        <div className="relative aspect-[4/3] ">
           <Image
             src={currentItem.src}
             alt={currentItem.alt}
@@ -174,7 +174,7 @@ const UsageCases: React.FC<ImageCarouselProps> = ({
       <div className="text-center mt-12">
         <button
           className="bg-gray-500 hover:bg-gray-600 text-white font-bold py-4 px-12 rounded-full text-lg 
-          transition-colors duration-300 shadow-lg hover:shadow-xl"
+          transition-colors duration-300  hover:shadow-xl"
           onClick={handleClick}
         >
           장비 구매하기

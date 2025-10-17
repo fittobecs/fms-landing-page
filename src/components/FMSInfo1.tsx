@@ -6,8 +6,7 @@ const FMSInfo1: React.FC = () => {
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4 leading-tight">
             FMS사의 모든 온라인 강좌를 수강하는,
-          </h1>
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-8 leading-tight">
+            <br />
             FMS ACADEMY
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
