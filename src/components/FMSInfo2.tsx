@@ -20,7 +20,7 @@ const FMSInfo2: React.FC = () => {
         {/* FMS L1, L2 */}
         <div className="grid grid-cols-1 md:grid-cols-2">
           <div className="space-y-8 order-1">
-            <div className="relative w-full h-[300px]">
+            <div className="relative w-full md:h-[300px]">
               <div className="w-full aspect-video mb-4">
                 <iframe
                   className="w-full h-full"
@@ -77,7 +77,7 @@ const FMSInfo2: React.FC = () => {
             </div>
           </div>
           <div className="space-y-8 order-1 md:order-2">
-            <div className="relative w-full h-[300px]">
+            <div className="relative w-full md:h-[300px]">
               <div className="w-full aspect-video mb-4">
                 <iframe
                   className="w-full h-full"
@@ -94,7 +94,7 @@ const FMSInfo2: React.FC = () => {
         {/* FCS */}
         <div className="grid grid-cols-1 md:grid-cols-2">
           <div className="space-y-8 order-1">
-            <div className="relative w-full h-[300px]">
+            <div className="relative w-full md:h-[300px]">
               <div className="w-full aspect-video mb-4">
                 <iframe
                   className="w-full h-full"
@@ -147,7 +147,7 @@ const FMSInfo2: React.FC = () => {
             </div>
           </div>
           <div className="space-y-8 order-1 md:order-2">
-            <div className="relative w-full h-[300px]">
+            <div className="relative w-full md:h-[300px]">
               <div className="w-full aspect-video mb-4">
                 <iframe
                   className="w-full h-full"
@@ -164,7 +164,7 @@ const FMSInfo2: React.FC = () => {
         {/* BREATHING */}
         <div className="grid grid-cols-1 md:grid-cols-2">
           <div className="space-y-8 order-1">
-            <div className="relative w-full h-[300px]">
+            <div className="relative w-full md:h-[300px]">
               <div className="w-full aspect-video mb-4">
                 <iframe
                   className="w-full h-full"
@@ -221,7 +221,7 @@ const FMSInfo2: React.FC = () => {
             </div>
           </div>
           <div className="space-y-8 order-1 md:order-2">
-            <div className="relative w-full h-[300px]">
+            <div className="relative w-full h-[350px] md:h-[300px]">
               <Image
                 src="/images/Landing-Page-ImageStarting-Point.jpg"
                 alt="FMS사 기타 강좌 이미지"
