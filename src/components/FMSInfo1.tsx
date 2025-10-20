@@ -14,8 +14,8 @@ const FMSInfo1: React.FC = () => {
             <div className="w-full aspect-video mb-4">
               <iframe
                 className="w-full h-full"
-                src="https://www.youtube.com/embed/gQQtOkLX-Ew"
-                title="FMS L1/L2"
+                src="https://www.youtube.com/embed/eJpbt3efeR8"
+                title="FMS"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               />
