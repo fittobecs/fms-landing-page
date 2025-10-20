@@ -34,7 +34,7 @@ const FMSInfo2: React.FC = () => {
           </div>
           <div className="space-y-8 order-2">
             <div className="w-full text-center">
-              <h2 className="text-2xl font-semibold text-gray-800 py-9">
+              <h2 className="text-2xl font-semibold text-gray-800 py-4 md:py-9">
                 FMS L1, L2
               </h2>
               <ul className="text-gray-700 space-y-1 list-inside">
@@ -58,7 +58,7 @@ const FMSInfo2: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2">
           <div className="space-y-8 order-2 md:order-1">
             <div className="w-full text-center">
-              <h2 className="text-2xl font-semibold text-gray-800 py-9">
+              <h2 className="text-2xl font-semibold text-gray-800 py-4 md:py-9">
                 SFMA L1, L2
               </h2>
               <ul className="text-gray-700 space-y-1 list-inside">
@@ -108,7 +108,9 @@ const FMSInfo2: React.FC = () => {
           </div>
           <div className="space-y-8 order-2">
             <div className="w-full text-center">
-              <h2 className="text-2xl font-semibold text-gray-800 py-9">FCS</h2>
+              <h2 className="text-2xl font-semibold text-gray-800 py-4 md:py-9">
+                FCS
+              </h2>
               <ul className="text-gray-700 space-y-1 list-inside">
                 <li>01_퍼포먼스의 약한 고리 탐색</li>
                 <li>02_효과적 퍼포먼스 트레이닝 가이드</li>
@@ -130,7 +132,9 @@ const FMSInfo2: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2">
           <div className="space-y-8 order-2 md:order-1">
             <div className="w-full text-center">
-              <h2 className="text-2xl font-semibold text-gray-800 py-9">YBT</h2>
+              <h2 className="text-2xl font-semibold text-gray-800 py-4 md:py-9">
+                YBT
+              </h2>
               <ul className="text-gray-700 space-y-1 list-inside">
                 <li>01_정밀 측정을 통한 개선 여부 판단</li>
                 <li>02_상체 및 하체의 균형 테스트</li>
@@ -178,7 +182,7 @@ const FMSInfo2: React.FC = () => {
           </div>
           <div className="space-y-8 order-2">
             <div className="w-full text-center">
-              <h2 className="text-2xl font-semibold text-gray-800 py-9">
+              <h2 className="text-2xl font-semibold text-gray-800 py-4 md:py-9">
                 BREATHING
               </h2>
               <ul className="text-gray-700 space-y-1 list-inside">
@@ -202,7 +206,7 @@ const FMSInfo2: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2">
           <div className="space-y-8 order-2 md:order-1">
             <div className="w-full text-center">
-              <h2 className="text-2xl font-semibold text-gray-800 py-9">
+              <h2 className="text-2xl font-semibold text-gray-800 py-7 md:py-9">
                 FMS사 기타 강좌
               </h2>
               <ul className="text-gray-700 space-y-1 list-inside">

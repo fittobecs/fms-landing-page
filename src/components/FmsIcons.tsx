@@ -3,7 +3,7 @@ import React from "react"
 const FmsIcons: React.FC = () => {
   const benefits = [
     {
-      iconPath: "/images/icons/write_icon.png",
+      iconPath: "/images/icons/write_icon_2.png",
       title: "7가지 국제 자격 과정 포함",
       subtitle: "FMS사의 모든 온라인 강좌",
       description: "1년간 무제한 수강",
@@ -39,7 +39,7 @@ const FmsIcons: React.FC = () => {
       description: "(한국 전용)",
     },
     {
-      iconPath: "/images/icons/fittobe_icon.png",
+      iconPath: "/images/icons/fittobe_icon_2.png",
       title: "회원 관리 프로그램 핏투비",
       subtitle: "(스타터 요금제 무료 사용)",
       description: "(한국 전용)",
@@ -69,7 +69,7 @@ const FmsIcons: React.FC = () => {
                 <img
                   src={benefit.iconPath}
                   alt={benefit.title}
-                  className="w-20 h-16"
+                  className="w-[4.5rem] h-16"
                 />
               </div>
               <div className="space-y-1">

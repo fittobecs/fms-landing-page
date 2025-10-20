@@ -4,12 +4,25 @@ const FMSInfo1: React.FC = () => {
       <div className="max-w-4xl mx-auto px-6">
         {/* Main Title */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4 leading-tight">
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-8 leading-tight">
             FMS사의 모든 온라인 강좌를 수강하는,
             <br />
             FMS ACADEMY
           </h1>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+
+          <div className="relative w-full gap-y-4">
+            <div className="w-full aspect-video mb-4">
+              <iframe
+                className="w-full h-full"
+                src="https://www.youtube.com/embed/gQQtOkLX-Ew"
+                title="FMS L1/L2"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+          </div>
+
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto mt-10">
             1천만원 값어치의 FMS사의 모든 강좌를 FMS ACADEMY로 한 번에! 국제
             자격증 7가지부터 매년 추가되는 FMS사의 새로운 강좌까지
           </p>
