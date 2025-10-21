@@ -19,7 +19,7 @@ const Header: React.FC = () => {
   return (
     <header className="bg-[rgb(88,88,88)] fixed top-0 left-0 right-0 md:absolute z-50 mx-auto w-full">
       <Container className="!px-0">
-        <nav className="shadow-md md:shadow-none bg-[rgb(88,88,88)] mx-auto flex justify-between items-center py-2 px-5 md:py-5">
+        <nav className="shadow-md md:shadow-none bg-[rgb(88,88,88)] mx-auto flex justify-between items-center py-2 px-5 md:py-7">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
             <Image
@@ -46,7 +46,7 @@ const Header: React.FC = () => {
               <a
                 href="https://www.fittobe.ac/course/course_view.jsp?id=174227&cid=116081#course-view-174227"
                 target="_blank"
-                className="text-black bg-white border-4 border-red-600 hover:bg-gray-300 px-8 py-3 rounded-full transition-colors"
+                className="text-white font-bold bg-[rgb(88,88,88)] border-4 border-red-600 hover:bg-gray-400 px-8 py-3 rounded-full transition-colors"
               >
                 FMS 신청
               </a>

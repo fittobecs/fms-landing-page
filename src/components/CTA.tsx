@@ -13,7 +13,7 @@ const CTA: React.FC = () => {
 
   const handleDetailsClick = () => {
     window.open(
-      "https://www.fittobe.ac/main/page.jsp?code=test_12121&ln=FMS_main",
+      "https://www.fittobe.ac/main/index.jsp",
       "_blank",
       "noopener,noreferrer"
     )
