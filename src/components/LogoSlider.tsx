@@ -58,13 +58,13 @@ const LogoSlider: React.FC = () => {
             transform: translateX(0);
           }
           100% {
-            transform: translateX(-50%); /* 2배 복제로 인해 1/2 이동 */
+            transform: translateX(-70%); /* 2배 복제로 인해 1/2 이동 */
           }
         }
 
         .animate-slide {
           display: flex;
-          animation: slide 25s linear infinite; /* 데스크톱: 25초 */
+          animation: slide 18s linear infinite; /* 데스크톱: 25초 */
           will-change: transform; /* 애니메이션 성능 최적화 */
         }
 
@@ -77,10 +77,18 @@ const LogoSlider: React.FC = () => {
           overflow: hidden; /* 둥근 모서리 밖으로 이미지가 삐져나오지 않도록 */
         }
 
-        /* 모바일 화면 (768px 이하)에서 애니메이션 속도 2배 */
-        @media screen and (max-width: 768px) {
+        /* 모바일 화면 (762px 이하)에서 애니메이션 속도 2배 */
+        @media screen and (max-width: 762px) {
+          @keyframes slide {
+            0% {
+              transform: translateX(0);
+            }
+            100% {
+              transform: translateX(-326%); /* 모바일에서도 동일한 이동 거리 */
+            }
+          }
           .animate-slide {
-            animation: slide 12.5s linear infinite; /* 모바일: 12.5초 (2배 빠름) */
+            animation: slide 15s linear infinite; /* 모바일: 12.5초 (2배 빠름) */
           }
         }
       `}</style>

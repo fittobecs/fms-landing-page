@@ -31,14 +31,21 @@ const PricingColumn2 = () => {
   }
 
   const handlePurchase = () => {
-    console.log("구매하기 클릭")
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent)
+    const url =
+      "https://www.fittobe.ac/course/course_view.jsp?id=174227&cid=116081#course-view-174227"
+    if (isMobile) {
+      window.location.href = url
+    } else {
+      window.open(url, "_blank")
+    }
   }
 
   return (
     <div className=" bg-white p-4 md:p-8">
       <div className="max-w-[800px] mx-auto shadow-lg rounded-lg border border-gray-200 p-6 md:p-20">
         {/* 가격 헤더 섹션 */}
-        <div className="flex flex-row items-center justify-between gap-6 md:gap-12 mb-10">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-6 md:gap-12 mb-10">
           {/* 등록비 */}
           <div className="text-center flex-1">
             <h3 className="text-base font-semibold text-gray-700 mb-3">
@@ -86,12 +93,12 @@ const PricingColumn2 = () => {
         </div>
 
         {/* 혜택 목록 섹션 */}
-        <div className="grid grid-cols-2 gap-x-12 gap-y-6">
+        <div className="grid grid-rows-1 md:grid-cols-2 max-[762px]:justify-items-center gap-x-12 gap-y-3 md:gap-y-6">
           {/* 등록비 혜택 */}
           <div>
-            <ul className="space-y-3">
+            <ul className="space-y-3 min-w-[261px]">
               {registrationFee.features.map((feature, index) => (
-                <li key={index} className="flex items-start">
+                <li key={index} className="flex items-center">
                   <BsFillCheckCircleFill className="h-7 w-5 text-red-600 mr-3 mt-0.5 flex-shrink-0" />
                   <span className="text-gray-700 text-sm">{feature}</span>
                 </li>
@@ -101,9 +108,9 @@ const PricingColumn2 = () => {
 
           {/* 연회비 혜택 */}
           <div>
-            <ul className="space-y-3">
+            <ul className="space-y-3 min-w-[261px]">
               {annualFee.features.map((feature, index) => (
-                <li key={index} className="flex items-start">
+                <li key={index} className="flex items-center">
                   <BsFillCheckCircleFill className="h-7 w-5 text-red-600 mr-3 mt-0.5 flex-shrink-0" />
                   <span className="text-gray-700 text-sm">{feature}</span>
                 </li>

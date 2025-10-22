@@ -80,7 +80,7 @@ const FmsIcons: React.FC = () => {
                   {benefit.subtitle}
                 </p>
                 {benefit.description && (
-                  <p className="text-sm text-gray-600 whitespace-pre-line mt-2">
+                  <p className="text-base font-medium leading-snug mt-2">
                     {benefit.description}
                   </p>
                 )}

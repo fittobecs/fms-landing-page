@@ -11,7 +11,7 @@ interface Props {
 const PricingColumn: React.FC<Props> = ({ tier }: Props) => {
   const { name, price, features, unit, url } = tier
   const handleClick = () => {
-    window.open(url, "_blank", "noopener,noreferrer")
+    window.open(url, "_self", "noopener,noreferrer")
   }
 
   return (
