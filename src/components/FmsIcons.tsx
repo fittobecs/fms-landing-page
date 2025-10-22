@@ -55,7 +55,7 @@ const FmsIcons: React.FC = () => {
   return (
     <section className="w-full pb-16 flex justify-center items-center bg-white">
       <div className="relative w-[90%] md:w-[80%] max-w-[1200px]">
-        <h2 className="text-4xl md:text-5xl font-bold mb-16 text-left">
+        <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center">
           FMS 아카데미 혜택
         </h2>
 

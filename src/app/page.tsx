@@ -36,9 +36,6 @@ const HomePage: React.FC = () => {
             </p>
           </div>
         </Section>
-        <div className="mt-16 px-4">
-          <hr className="border-2 border-gray-800 w-3/4 mx-auto" />
-        </div>
         <Section id="usage-case" title="해외 구단 사용" description="">
           <UsageCases />
         </Section>

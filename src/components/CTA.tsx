@@ -49,7 +49,7 @@ const CTA: React.FC = () => {
   font-medium rounded-full text-base px-5 py-2.5 text-center me-2 mb-2 dark:bg-white dark:hover:bg-gray-200 "
                 onClick={handleDetailsClick}
               >
-                상세 페이지
+                홈페이지
               </button>
             </div>
           </div>

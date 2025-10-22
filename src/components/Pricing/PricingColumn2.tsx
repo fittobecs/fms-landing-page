@@ -36,9 +36,9 @@ const PricingColumn2 = () => {
 
   return (
     <div className=" bg-white p-4 md:p-8">
-      <div className="max-w-[800px] mx-auto shadow-lg rounded-lg border border-gray-200 p-6 md:p-12">
+      <div className="max-w-[800px] mx-auto shadow-lg rounded-lg border border-gray-200 p-6 md:p-20">
         {/* 가격 헤더 섹션 */}
-        <div className="flex flex-row items-center justify-between gap-6 md:gap-12 mb-8">
+        <div className="flex flex-row items-center justify-between gap-6 md:gap-12 mb-10">
           {/* 등록비 */}
           <div className="text-center flex-1">
             <h3 className="text-base font-semibold text-gray-700 mb-3">
@@ -76,7 +76,7 @@ const PricingColumn2 = () => {
         </div>
 
         {/* 구매하기 버튼 */}
-        <div className="mb-8 pb-8 border-b border-gray-200">
+        <div className="mb-8 pb-10 border-b border-gray-200">
           <button
             onClick={handlePurchase}
             className="w-[50%] max-w-2xl mx-auto block bg-yellow-400 hover:bg-yellow-500 text-gray-800 font-bold py-2 px-8 rounded-full text-lg transition-colors"
@@ -92,7 +92,7 @@ const PricingColumn2 = () => {
             <ul className="space-y-3">
               {registrationFee.features.map((feature, index) => (
                 <li key={index} className="flex items-start">
-                  <BsFillCheckCircleFill className="h-5 w-5 text-red-600 mr-3 mt-0.5 flex-shrink-0" />
+                  <BsFillCheckCircleFill className="h-7 w-5 text-red-600 mr-3 mt-0.5 flex-shrink-0" />
                   <span className="text-gray-700 text-sm">{feature}</span>
                 </li>
               ))}
@@ -104,7 +104,7 @@ const PricingColumn2 = () => {
             <ul className="space-y-3">
               {annualFee.features.map((feature, index) => (
                 <li key={index} className="flex items-start">
-                  <BsFillCheckCircleFill className="h-5 w-5 text-red-600 mr-3 mt-0.5 flex-shrink-0" />
+                  <BsFillCheckCircleFill className="h-7 w-5 text-red-600 mr-3 mt-0.5 flex-shrink-0" />
                   <span className="text-gray-700 text-sm">{feature}</span>
                 </li>
               ))}
