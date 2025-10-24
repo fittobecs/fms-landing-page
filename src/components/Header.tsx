@@ -92,7 +92,7 @@ const Header: React.FC = () => {
               <li key={item.text}>
                 <Link
                   href={item.url}
-                  className="text-foreground hover:text-primary block"
+                  className="text-white hover:text-primary block"
                   onClick={toggleMenu}
                 >
                   {item.text}
@@ -103,7 +103,7 @@ const Header: React.FC = () => {
               <a
                 href="https://www.fittobe.ac/course/course_view.jsp?id=174227&cid=116081#course-view-174227"
                 target="_blank"
-                className="text-black bg-white border-4 border-red-600 hover:bg-gray-300 px-8 py-3 rounded-full transition-colors"
+                className="text-white font-bold bg-[rgb(88,88,88)] border-4 border-red-600 hover:bg-gray-300 px-8 py-3 rounded-full transition-colors"
                 onClick={toggleMenu}
               >
                 FMS 신청
