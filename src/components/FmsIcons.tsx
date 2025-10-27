@@ -69,7 +69,7 @@ const FmsIcons: React.FC = () => {
                 <img
                   src={benefit.iconPath}
                   alt={benefit.title}
-                  className="w-16 h-16 md:w-20 md:h-20"
+                  className="w-24 h-24"
                 />
               </div>
               <div className="space-y-1">
