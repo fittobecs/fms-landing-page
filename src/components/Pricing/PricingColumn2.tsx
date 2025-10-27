@@ -52,7 +52,7 @@ const PricingColumn2 = () => {
               {registrationFee.name}
             </h3>
             <div className="flex items-baseline justify-center">
-              <span className="text-6xl font-bold text-red-600">
+              <span className="text-7xl font-bold text-red-600">
                 {registrationFee.price}
               </span>
               <span className="text-2xl font-medium ml-1">만원</span>
@@ -73,7 +73,7 @@ const PricingColumn2 = () => {
               {annualFee.name}
             </h3>
             <div className="flex items-baseline justify-center">
-              <span className="text-6xl font-bold text-red-600">
+              <span className="text-7xl font-bold text-red-600">
                 {annualFee.price}
               </span>
               <span className="text-2xl font-medium ml-1">만원</span>
@@ -96,11 +96,11 @@ const PricingColumn2 = () => {
         <div className="grid grid-rows-1 md:grid-cols-2 max-[762px]:justify-items-center gap-x-12 gap-y-3 md:gap-y-6">
           {/* 등록비 혜택 */}
           <div>
-            <ul className="space-y-3 min-w-[261px]">
+            <ul className="space-y-3 min-w-[275px]">
               {registrationFee.features.map((feature, index) => (
                 <li key={index} className="flex items-center">
-                  <BsFillCheckCircleFill className="h-7 w-5 text-red-600 mr-3 mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700 text-sm">{feature}</span>
+                  <BsFillCheckCircleFill className="h-9 w-5 text-red-600 mr-3 mt-0.5 flex-shrink-0" />
+                  <span className="text-gray-700 text-base">{feature}</span>
                 </li>
               ))}
             </ul>
@@ -108,11 +108,11 @@ const PricingColumn2 = () => {
 
           {/* 연회비 혜택 */}
           <div>
-            <ul className="space-y-3 min-w-[261px]">
+            <ul className="space-y-3 min-w-[275px]">
               {annualFee.features.map((feature, index) => (
                 <li key={index} className="flex items-center">
-                  <BsFillCheckCircleFill className="h-7 w-5 text-red-600 mr-3 mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700 text-sm">{feature}</span>
+                  <BsFillCheckCircleFill className="h-9 w-5 text-red-600 mr-3 mt-0.5 flex-shrink-0" />
+                  <span className="text-gray-700 text-base">{feature}</span>
                 </li>
               ))}
             </ul>

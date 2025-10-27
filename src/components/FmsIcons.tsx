@@ -3,43 +3,43 @@ import React from "react"
 const FmsIcons: React.FC = () => {
   const benefits = [
     {
-      iconPath: "/images/icons/write_icon_2.png",
+      iconPath: "/images/icons/write_icon_3.png",
       title: "7가지 국제 자격 과정 포함",
       subtitle: "FMS사의 모든 온라인 강좌",
       description: "1년간 무제한 수강",
     },
     {
-      iconPath: "/images/icons/chart_icon.png",
+      iconPath: "/images/icons/chart_icon_3.png",
       title: "FMS 프로 앱",
       subtitle: "무료 사용 가능",
       description: "",
     },
     {
-      iconPath: "/images/icons/certificate_icon.png",
+      iconPath: "/images/icons/certificate_icon_3.png",
       title: "과정 별 3회의 시험 기회,",
       subtitle: "자격증 발급 비용 포함",
       description: "",
     },
     {
-      iconPath: "/images/icons/watch_icon.png",
+      iconPath: "/images/icons/watch_icon_3.png",
       title: "600여 개의 멤버십 전용",
       subtitle: "교정 운동 라이브러리",
       description: "(영문)",
     },
     {
-      iconPath: "/images/icons/free_icon.png",
+      iconPath: "/images/icons/free_icon_3.png",
       title: "연 1회 개최되는",
       subtitle: "FMS Day(15만원 상당)",
       description: "무료 참석\n(한국 전용)",
     },
     {
-      iconPath: "/images/icons/internet_icon.png",
+      iconPath: "/images/icons/internet_icon_3.png",
       title: "멤버 전용 칼럼 및 콘텐츠",
       subtitle: "한글 제공",
       description: "(한국 전용)",
     },
     {
-      iconPath: "/images/icons/fittobe_icon_2.png",
+      iconPath: "/images/icons/fittobe_icon_3.png",
       title: "회원 관리 프로그램 핏투비",
       subtitle: "(스타터 요금제 무료 사용)",
       description: "(한국 전용)",
@@ -69,7 +69,7 @@ const FmsIcons: React.FC = () => {
                 <img
                   src={benefit.iconPath}
                   alt={benefit.title}
-                  className="w-[4.5rem] h-16"
+                  className="w-16 h-16 md:w-20 md:h-20"
                 />
               </div>
               <div className="space-y-1">

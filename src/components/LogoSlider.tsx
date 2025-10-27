@@ -48,7 +48,7 @@ const LogoSlider: React.FC = () => {
   ]
 
   // 무한 루프 효과를 위해 로고 배열을 두 배로 복제
-  const duplicatedLogos = [...logos, ...logos]
+  const duplicatedLogos = [...logos, ...logos, ...logos]
 
   return (
     <div className="overflow-hidden w-full">
@@ -58,13 +58,13 @@ const LogoSlider: React.FC = () => {
             transform: translateX(0);
           }
           100% {
-            transform: translateX(-70%); /* 2배 복제로 인해 1/2 이동 */
+            transform: translateX(-100%); /* 2배 복제로 인해 1/2 이동 */
           }
         }
 
         .animate-slide {
           display: flex;
-          animation: slide 18s linear infinite; /* 데스크톱: 25초 */
+          animation: slide 50s linear infinite; /* 데스크톱: 25초 */
           will-change: transform; /* 애니메이션 성능 최적화 */
         }
 
