@@ -6,7 +6,7 @@ const FmsIcons: React.FC = () => {
       iconPath: "/images/icons/write_icon_3.png",
       title: "7가지 국제 자격 과정 포함",
       subtitle: "FMS사의 모든 온라인 강좌",
-      description: "1년간 무제한 수강",
+      description: "(1년간 무제한 수강)",
     },
     {
       iconPath: "/images/icons/chart_icon_3.png",
@@ -46,9 +46,9 @@ const FmsIcons: React.FC = () => {
     },
     {
       iconPath: "/images/icons/coupon_icon.png",
-      title: "핏투비 아카데미 장비 모든",
-      subtitle: "품목 5%할인",
-      description: "오프라인 재수강 30% 할인\n(한국 전용)",
+      title: "아카데미 전 장비 5% 할인",
+      subtitle: "오프라인 재수강 30% 할인",
+      description: "(한국 전용)",
     },
   ]
 

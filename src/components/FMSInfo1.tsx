@@ -4,12 +4,12 @@ const FMSInfo1: React.FC = () => {
       <div className="max-w-4xl mx-auto px-6">
         {/* Main Title */}
         <div className="text-center mb-6">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-8 leading-tight">
-            FMS사의 모든 온라인 강좌를 수강하는,
-            <br />
+          <h1 className="text-4xl md:text-8xl font-black text-gray-800 mb-3 leading-tight">
             FMS ACADEMY
           </h1>
-
+          <h1 className="text-4xl md:text-5xl font-extrabold text-gray-800 mb-8 leading-tight">
+            FMS 사의 모든 온라인을 한 번에
+          </h1>
           <div className="relative w-full gap-y-4">
             <div className="w-full aspect-video mb-4">
               <iframe
@@ -22,12 +22,12 @@ const FMSInfo1: React.FC = () => {
             </div>
           </div>
 
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto mt-10">
-            <span className="font-bold">1천만원 값어치</span>의 FMS사의 모든
-            강좌를 <span className="font-bold">FMS ACADEMY로 한 번에!</span>
-            <br />
-            국제 자격증 7가지부터 매년 추가되는 FMS사의 새로운 강좌까지
-          </p>
+          <div className="my-10">
+            <h1 className="text-2xl md:text-4xl font-extrabold text-gray-800 leading-tight">
+              1천만원 값어치의 FMS사의 모든 강좌 포함 국제 자격증 7가지부터 매년
+              추가되는 FMS사의 새로운 강좌까지
+            </h1>
+          </div>
         </div>
 
         {/* Content Sections */}
