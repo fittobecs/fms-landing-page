@@ -28,6 +28,20 @@ const UsageCases: React.FC<ImageCarouselProps> = ({
 
   const items = [
     {
+      id: "many-people-1",
+      src: "/images/many_people_1.png",
+      alt: "many people",
+      caption: "many people",
+      type: "image",
+    },
+    {
+      id: "many-people-2",
+      src: "/images/many_people_2.png",
+      alt: "many people",
+      caption: "many people",
+      type: "image",
+    },
+    {
       id: "squat-gif",
       src: "/images/zlatan.gif",
       alt: "스쿼트 동작",
