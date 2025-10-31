@@ -225,7 +225,7 @@ const FMSInfo2: React.FC = () => {
             </div>
           </div>
           <div className="space-y-8 order-1 md:order-2">
-            <div className="relative w-full h-[350px] md:h-[300px]">
+            <div className="relative w-full h-[250px] md:h-[300px]">
               <Image
                 src="/images/Landing-Page-ImageStarting-Point.jpg"
                 alt="FMS사 기타 강좌 이미지"
