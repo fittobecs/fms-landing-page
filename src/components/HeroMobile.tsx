@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
 
       {/* 오버레이 텍스트 */}
       <div className="absolute flex flex-col justify-center items-center text-center px-2 md:px-4">
-        <div className="relative w-14 h-14 sm:w-20 sm:h-20 md:w-40 md:h-40 ml-8 md:ml-14 mb-2 md:mb-4">
+        <div className="relative w-14 h-14 sm:w-20 sm:h-20 md:w-40 md:h-40 mb-2 md:mb-4">
           <Image src="/images/fms.png" fill alt="DVRT Logo" className="" />
         </div>
         <p className="text-xl text-white drop-shadow-lg">
