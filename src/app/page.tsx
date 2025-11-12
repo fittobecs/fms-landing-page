@@ -4,6 +4,7 @@ import FmsIcons from "@/components/FmsIcons"
 import FMSInfo1 from "@/components/FMSInfo1"
 import FMSInfo2 from "@/components/FMSInfo2"
 import Hero from "@/components/Hero"
+import HeroMobile from "@/components/HeroMobile"
 import Logos from "@/components/Logos"
 import Pricing from "@/components/Pricing/Pricing"
 import Section from "@/components/Section"
@@ -13,6 +14,7 @@ const HomePage: React.FC = () => {
   return (
     <>
       <Hero />
+      <HeroMobile />
       <Logos />
       <Container>
         <FMSInfo1 />
