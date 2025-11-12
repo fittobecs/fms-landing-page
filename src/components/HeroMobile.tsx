@@ -13,13 +13,13 @@ const Hero: React.FC = () => {
           src="/images/hero_mobile.png"
           fill
           alt="picture of fms-academy-header"
-          className="object-fill min-[450px]:hidden"
+          className="object-fill min-[500px]:hidden"
         />
         <Image
           src="/images/hero_tablet.png"
           fill
           alt="picture of fms-academy-header"
-          className="object-fill max-[451px]:hidden"
+          className="object-fill max-[501px]:hidden"
         />
       </div>
 
