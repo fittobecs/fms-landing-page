@@ -5,12 +5,22 @@ const Hero: React.FC = () => {
   return (
     <section
       id="hero"
-      className="relative flex items-center justify-center pb-0 h-[290px] md:h-[650px] sm:h-[350px] pt-[60px] md:pt-[85px] max-[767px]:hidden"
+      className="relative flex items-center justify-center pb-0 h-[650px] max-[1100px]:h-[550px] pt-[60px] max-[767px]:hidden mt-6"
     >
-      <div className="relative w-full h-full">
+      <div className="relative w-full h-full max-[1000px]:hidden">
         {/* 이미지를 감쌀 컨테이너 */}
         <Image
-          src="/images/main_logo_no.png"
+          src="/images/fms_main_251216_3.png"
+          fill
+          alt="picture of fms-academy-header"
+          className="" // 또는 object-contain
+        />
+      </div>
+
+      <div className="relative w-full h-full min-[1000px]:hidden ">
+        {/* 이미지를 감쌀 컨테이너 */}
+        <Image
+          src="/images/fms_main_251216_2.png"
           fill
           alt="picture of fms-academy-header"
           className="" // 또는 object-contain

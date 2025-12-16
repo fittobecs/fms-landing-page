@@ -10,13 +10,13 @@ const Hero: React.FC = () => {
       <div className="relative w-full h-full">
         {/* 이미지를 감쌀 컨테이너 */}
         <Image
-          src="/images/hero_mobile.png"
+          src="/images/fms_mobile_251216.png"
           fill
           alt="picture of fms-academy-header"
           className="object-fill min-[500px]:hidden"
         />
         <Image
-          src="/images/hero_tablet.png"
+          src="/images/fms_tablet_251216.png"
           fill
           alt="picture of fms-academy-header"
           className="object-fill max-[501px]:hidden"
