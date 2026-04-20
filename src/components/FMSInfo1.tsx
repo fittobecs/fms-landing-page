@@ -71,6 +71,7 @@ const FMSInfo1: React.FC = () => {
             {/* CTA Button */}
             <a
               href="https://www.fittobe.ac/course/course_view.jsp?id=174227&cid=116081#course-view-174227"
+              target="_blank"
               className="inline-block bg-red-500 hover:bg-red-600 active:bg-red-700 transition-colors duration-150 text-white text-xl font-bold px-16 py-5 rounded-lg mb-3 w-full max-w-sm text-center"
             >
               지금 신청하기 →
